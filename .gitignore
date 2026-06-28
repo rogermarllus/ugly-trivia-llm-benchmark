@@ -1,0 +1,51 @@
+# --- [ Compilação e Binários Java ] ---
+# Ignora ficheiros compilados e binários gerados localmente para não poluir o repositório
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.nar
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- [ SonarQube e SonarScanner ] ---
+# Ignora a pasta de cache local que o SonarScanner cria a cada execução dos comandos .bat
+.sonar/
+.sonar-scanner/
+.scannerwork/
+
+# --- [ Editores e IDEs (VS Code, IntelliJ, Eclipse) ] ---
+# Ignora configurações pessoais de ambiente de desenvolvimento
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+*.launch
+
+# --- [ Logs e Ficheiros Temporários ] ---
+# Ignora logs gerados pela execução de ferramentas ou pelo sistema operacional
+*.log
+logs/
+Thumbs.db
+.DS_Store
+
+# --- [ Docker e Volumes Locais ] ---
+# Previne que dados persistidos do contentor do SonarQube subam para o GitHub
+.docker/
+docker-data/

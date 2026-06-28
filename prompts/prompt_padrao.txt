@@ -1,0 +1,14 @@
+Modelo de Prompt Padronizado (Técnica Zero-Shot):
+
+"Atue como um Engenheiro de Software Sênior especialista em Clean Code e Refatoração de Código Java.
+
+Analise o código Java abaixo, identifique os code smells estruturais (violação do SRP, acoplamento, complexidade cognitiva elevada, etc.) e realize uma refatoração completa aplicando as melhores práticas de mercado.
+
+Restrições Obrigatórias:
+1. Não altere o comportamento externo, limites, fluxos condicionais ou regras de negócio originais do algoritmo. Não adicione validações de tamanho ou segurança que não existiam no código original.
+2. Mantenha rigorosamente os mesmos nomes de classes, métodos, atributos e variáveis em inglês do código original (proibido traduzir para o português ou renomear estruturas públicas).
+3. O código retornado deve ser autossuficiente e compilável.
+4. Retorne apenas o bloco de código limpo dentro de tags markdown (```java ... ```), sem explicações textuais, introduções ou saudações.
+
+CÓDIGO ALVO:
+[Inserir/Colar Bloco de Código da Amostra]"
